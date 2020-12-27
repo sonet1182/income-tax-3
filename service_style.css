@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+.wrapper {
+    width: 100%;
+    background-color: #e1e1d0;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    background-color: #0e0f0a;
+}
+
+.header h1 {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+/* This is a single-line comment */
+
+.menu {
+    background-color: palegreen;
+}
+
+.menu ul {
+    min-height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+}
+.menu ul li {
+    float: left;
+    position: relative;
+    margin-left: 161px;
+}
+.menu ul li a {
+    padding: 8px 50px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    background-color: rosybrown;
+    margin: 3px;
+    border-radius: 8px;
+}
+.menu ul li a:hover {
+    background-color: red;
+}
+.menu ul li ul {
+    position: absolute;
+    display: none;
+    right: 15px;
+}
+.menu ul li ul li {
+    float: none;
+}
+.menu ul li ul li a {
+    border-radius: 0;
+    background-color: #99b3ff;
+    border-bottom: 1px solid blue;
+    border-radius: 4px;
+    margin: 0;
+    font-color: black;
+}
+.menu ul li:hover ul {
+    display: block;
+    background-opacity: 0.5;
+}
+.menu ul li ul li a:hover {
+    background-color: pink;
+    color: black;
+}
+.content {
+    min-height: 600px;
+    background-color: orange;
+}
+
+.main-content {
+    background-color: #d6d6c2;
+    min-height: 600px;
+    float: left;
+}
+.form {
+    padding-left: 29px;
+    padding-top: 25px;
+}
+.form label {
+    width: 240px;
+    display: inline-block;
+}
+.footer {
+    height: 50px;
+    background-color: #0e0f0a;
+}
+.footer p {
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
